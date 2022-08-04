@@ -4,11 +4,16 @@ golangci-server is a [golangci-lint](https://github.com/golangci/golangci-lint) 
 
 ## Installation
 
-Install [golangci-lint](https://golangci-lint.run).
+1. Install [golangci-lint](https://golangci-lint.run)
+2. Install `golangci-server`
 
-```console
-go install github.com/stephenafamo/golangci-server@latest
-```
+        go install github.com/stephenafamo/golangci-server@latest
+
+## Inspiration
+
+Most of the inspiration for this was taken from [golangci-lint-langserver](https://github.com/nametake/golangci-lint-langserver).
+
+I started out trying to modify it but found it easier to just rebuild based on the excellent [glsp package](https://github.com/tliron/glsp)
 
 ### Configuration for [coc.nvim](https://github.com/neoclide/coc.nvim)
 
