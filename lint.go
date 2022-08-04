@@ -14,6 +14,10 @@ import (
 
 func (s *serv) linter() {
 	for file := range s.files {
+		if !strings.HasPrefix(file, s.rootURI) {
+			s.Log.Errorf("file outisde root: %q", file)
+			return
+		}
 		go s.lintAll()
 		s.lint(file)
 	}
@@ -60,8 +64,10 @@ func (s *serv) sendDiagnostics(result GolangCILintResult) {
 	}
 }
 
-var command = []string{"golangci-lint", "run", "--out-format", "json"}
-var serverity = protocol.DiagnosticSeverityWarning
+var (
+	command   = []string{"golangci-lint", "run", "--out-format", "json"}
+	serverity = protocol.DiagnosticSeverityWarning
+)
 
 func (s *serv) lintAll() {
 	if s.linting {
