@@ -47,7 +47,7 @@ augroup END
 
 ```lua
 local lspconfig = require 'lspconfig'
-local configs = require 'lspconfig/configs'
+local configs = require 'lspconfig.configs'
 
 if not configs.golangcilsp then
  	configs.golangcilsp = {
