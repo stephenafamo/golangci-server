@@ -2,11 +2,9 @@ module github.com/stephenafamo/golangci-server
 
 go 1.18
 
-replace github.com/tliron/glsp => github.com/stephenafamo/glsp v0.0.0-20220804140323-5a729e33b7f8
-
 require (
 	github.com/sourcegraph/jsonrpc2 v0.1.0
-	github.com/tliron/glsp v0.1.1
+	github.com/tliron/glsp v0.1.2-0.20220804144236-0fe570f215a5
 	github.com/tliron/kutil v0.1.61
 )
 

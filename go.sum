@@ -19,6 +19,10 @@ github.com/sourcegraph/jsonrpc2 v0.1.0 h1:ohJHjZ+PcaLxDUjqk2NC3tIGsVa5bXThe1ZheS
 github.com/sourcegraph/jsonrpc2 v0.1.0/go.mod h1:ZafdZgk/axhT1cvZAPOhw+95nz2I/Ra5qMlU4gTRwIo=
 github.com/stephenafamo/glsp v0.0.0-20220804140323-5a729e33b7f8 h1:h9SiVFkGvD5Pjh6+fYMdS9c4ehUXl9yWTckhfso2V5s=
 github.com/stephenafamo/glsp v0.0.0-20220804140323-5a729e33b7f8/go.mod h1:Hqz7gzsJnxJidRXTUsvqdmk1xeh4zdlB8B2Jv3244RU=
+github.com/tliron/glsp v0.1.1 h1:GNNgUX9p1Q9MoPQooJoZ0+WaLL03EkhcKZUYJAtiNqs=
+github.com/tliron/glsp v0.1.1/go.mod h1:RVyVKeY3U+Nlc3DRklUiaegNsQyjzNTEool6YWh1v7g=
+github.com/tliron/glsp v0.1.2-0.20220804144236-0fe570f215a5 h1:Qqqhhlk6YA+UsQCdWKStjHzK6UqMjblw5jZ0xJY2DLY=
+github.com/tliron/glsp v0.1.2-0.20220804144236-0fe570f215a5/go.mod h1:Hqz7gzsJnxJidRXTUsvqdmk1xeh4zdlB8B2Jv3244RU=
 github.com/tliron/kutil v0.1.61 h1:zOB8UAw/BF0f5YFpviSxNu7B1UfU850CDQRruyk/cl8=
 github.com/tliron/kutil v0.1.61/go.mod h1:3wCyvZza8TAYKWpuxl/w0SiDmZXVcJeg+1ISytnAE7Y=
 github.com/zchee/color/v2 v2.0.6 h1:+mD95jTXou3Bi8+ZWn3SOEDts36SNROILd9JId7VI9A=
